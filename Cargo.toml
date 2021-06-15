@@ -1,0 +1,12 @@
+[package]
+name = "zsh-module-poc"
+version = "0.1.0"
+authors = ["Michael Gattozzi <self@mgattozzi.dev>"]
+edition = "2018"
+
+[lib]
+name = "test"
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2"
